@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------------- #
+# kosudoku-genelisting.inp
+# Created by Buz Barstow 2018-11-09
+# Last modified by Buz Barstow 2018-11-09
+
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Input data
+referenceGenomeGenBankFileName = \
+inputdata/RalstoniaEutrophaH16NottinghamCompositeGenome.gb
+
+essentialGeneFileName = inputdata/RalstoniaEutrophaH16NottinghamEssentialGenes.csv
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Output data
+cdsOutputFileName = outputdata/ReutrophaH16NottinghamCDSEssentialityData.csv
+geneOutputFileName = outputdata/ReutrophaH16NottinghamGeneEssentialityData.csv
+genesWithoutCDSsFileName = outputdata/ReutrophaH16NottinghamGenesWithoutCDSs.csv
+cdssWithoutGenesFileName = outputdata/ReutrophaH16NottinghamCDSsWithoutGenes.csv
+# ----------------------------------------------------------------------------------------------- #

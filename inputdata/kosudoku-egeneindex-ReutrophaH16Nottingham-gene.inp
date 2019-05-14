@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------------- #
+# kosudoku-egeneindex.inp
+# Created by Buz Barstow 2016-05-07
+# Last modified by Buz Barstow 2018-11-08
+
+# Input file for program to generate lookup table that connects transposon insertion
+# coordinates to cds loci in genome. 
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Input data
+referenceGenomeGenBankFileName = \
+inputdata/RalstoniaEutrophaH16NottinghamCompositeGenome.gb
+
+
+essentialityDataFileName = \
+outputdata/ReutrophaH16NottinghamGeneEssentialityData.csv
+
+featureTypeToIndex = gene
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Output data
+outputFileName = \
+outputdata/ReutrophaH16Nottingham_transposon_coord_to_feature_lookup_table_gene.xml
+# ---------------------------------------------------------------------------------- #
